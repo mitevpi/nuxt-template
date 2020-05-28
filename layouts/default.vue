@@ -62,6 +62,14 @@ html {
   text-align: center;
 }
 
+a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+a.router-link-exact-active {
+  color: #42b983;
+}
+
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
   'Helvetica Neue', Arial, sans-serif;

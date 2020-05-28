@@ -8,6 +8,7 @@
       <h2 class="subtitle">
         Nuxt.js Application Template
       </h2>
+      <nuxt-link to="/about">About</nuxt-link>
       <counter msg="Counter" class="spacer"></counter>
     </div>
   </div>

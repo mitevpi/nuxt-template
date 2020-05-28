@@ -1,5 +1,12 @@
 export default {
   mode: 'universal',
+  pageTransition: {
+    name: 'fade',
+    mode: 'out-in',
+    beforeEnter(el) {
+      console.log('Before enter...', el);
+    }
+  },
   /*
    ** Headers of the page
    */
@@ -30,7 +37,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['~/assets/transitions.css'],
   /*
    ** Plugins to load before mounting the App
    */
